@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DoesItBlend
 {
-    /// <summary>
-    /// A base class representing fruit
-    /// </summary>
-    public abstract class Fruit : IBlendable
-    {
-        public abstract string Blend();
 
+    /// <summary>
+    /// Interface for items that can be blended
+    /// </summary>
+    interface IBlendable
+    {
+        string Blend();
     }
 }
